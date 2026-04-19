@@ -11,11 +11,12 @@ find_package(assimp REQUIRED)
 add_executable(xtoon
     src/main.cpp
     src/shader.cpp
+    src/glad.c
 )
 
 target_include_directories(xtoon PRIVATE
     src/
-    ${OPENGL_INCLUDE_DIR}0
+    ${OPENGL_INCLUDE_DIR}
 )
 
 target_link_libraries(xtoon

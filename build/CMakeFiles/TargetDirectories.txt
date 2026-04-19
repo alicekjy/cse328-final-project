@@ -1,0 +1,3 @@
+/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/xtoon.dir
+/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/edit_cache.dir
+/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/rebuild_cache.dir
