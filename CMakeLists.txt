@@ -12,6 +12,7 @@ add_executable(xtoon
     src/main.cpp
     src/shader.cpp
     src/glad.c
+    src/stb_image.cpp
 )
 
 target_include_directories(xtoon PRIVATE

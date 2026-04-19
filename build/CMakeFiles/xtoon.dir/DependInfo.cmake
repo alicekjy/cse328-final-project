@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/src/glad.c" "CMakeFiles/xtoon.dir/src/glad.c.o" "gcc" "CMakeFiles/xtoon.dir/src/glad.c.o.d"
   "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/src/main.cpp" "CMakeFiles/xtoon.dir/src/main.cpp.o" "gcc" "CMakeFiles/xtoon.dir/src/main.cpp.o.d"
   "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/src/shader.cpp" "CMakeFiles/xtoon.dir/src/shader.cpp.o" "gcc" "CMakeFiles/xtoon.dir/src/shader.cpp.o.d"
+  "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/src/stb_image.cpp" "CMakeFiles/xtoon.dir/src/stb_image.cpp.o" "gcc" "CMakeFiles/xtoon.dir/src/stb_image.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
