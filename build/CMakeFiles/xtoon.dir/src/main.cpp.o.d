@@ -1290,6 +1290,7 @@ CMakeFiles/xtoon.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
+  /Users/alicekim/sbu\ spring\ 2026/CSE\ 328/FinalProject/finalproject/cse328-final-project/src/camera.h \
   /Users/alicekim/sbu\ spring\ 2026/CSE\ 328/FinalProject/finalproject/cse328-final-project/src/model.h \
   /Users/alicekim/sbu\ spring\ 2026/CSE\ 328/FinalProject/finalproject/cse328-final-project/src/stb_image.h \
   /opt/homebrew/include/assimp/Importer.hpp \
