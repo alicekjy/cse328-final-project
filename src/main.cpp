@@ -164,6 +164,30 @@ int main() {
             
             spot.Draw(phongShader);
         }
+        else if(currentMode == GOOCH){
+
+            //PASS 1 - blackoutline shell 
+            glCullFace(GL_FRONT);
+            outlineShader.use();
+            outlineShader.setMat4("projection", projection);
+            outlineShader.setMat4("view", view);
+            outlineShader.setMat4("model",model);
+            outlineShader.setFloat("outlineThickness", 0.03f);
+            spot.Draw(outlineShader);
+
+            //PASS 2 - Gooch shading
+            glCullFace(GL_BACK);
+            goochShader.use();
+            goochShader.setMat4("projection", projection);
+            goochShader.setMat4("view", view);
+            goochShader.setMat4("model", model);
+            goochShader.setVec3("lightPos", lightPos);
+            goochShader.setVec3("viewPos", camera.Position);
+            goochShader.setVec3("objectColor", glm::vec3(0.7f, 0.5f, 0.3f));
+            goochShader.setFloat("alpha", 0.45f);
+            goochShader.setFloat("beta", 0.45f);
+            spot.Draw(goochShader);
+        }
 
         glfwSwapBuffers(window);
         glfwPollEvents();
