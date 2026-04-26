@@ -10,6 +10,14 @@
 
 #include <iostream>
 
+enum ShaderMode {
+    PHONG,
+    GOOCH,
+    XTOON
+};
+
+ShaderMode currentMode = PHONG; //default
+
 //Window dimensions 
 const unsigned int SCR_WIDTH = 1200;
 const unsigned int SCR_HEIGHT = 800;
@@ -42,6 +50,23 @@ void mouse_callback(GLFWwindow* window, double xpos, double ypos){
 
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset){
     camera.ProcessMouseScroll(yoffset);
+}
+
+void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods){
+    if(action == GLFW_PRESS){
+        if(key == GLFW_KEY_1) {
+            currentMode = PHONG;
+            std::cout << "Mode: PHONG\n";
+        }
+        if(key == GLFW_KEY_2){
+            currentMode = GOOCH;
+            std::cout << "Mode: GOOCH\n";
+        }
+        if(key == GLFW_KEY_3){
+            currentMode = XTOON;
+            std::cout << "Mode: XTOON\n";
+        }
+    }
 }
 
 void processInput(GLFWwindow* window){
@@ -79,6 +104,7 @@ int main() {
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
     glfwSetCursorPosCallback(window, mouse_callback);
     glfwSetScrollCallback(window, scroll_callback);
+    glfwSetKeyCallback(window, key_callback);  
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
     
     // Init GLAD
@@ -88,10 +114,17 @@ int main() {
     }
 
     glEnable(GL_DEPTH_TEST);
+    glEnable(GL_CULL_FACE);
 
     // Load shader and model
     Shader phongShader("../shaders/phong.vert", "../shaders/phong.frag");
+    Shader goochShader("../shaders/phong.vert", "../shaders/gooch.frag");
+    Shader outlineShader("../shaders/outline.vert", "../shaders/outline.frag");
+
     Model spot("../models/spot/spot_triangulated.obj");
+
+    //Shared light position
+    glm::vec3 lightPos(0.0f, 2.0f, 3.0f);
 
     // Render loop
     while (!glfwWindowShouldClose(window)) {
@@ -104,8 +137,6 @@ int main() {
         glClearColor(0.15f, 0.15f, 0.15f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        phongShader.use();
-
         // Matrices
         glm::mat4 projection = glm::perspective(
             glm::radians(camera.Zoom),
@@ -114,21 +145,25 @@ int main() {
         glm::mat4 model = glm::mat4(1.0f);
         model = glm::rotate(model, glm::radians(180.0f),glm::vec3(0.0f, 1.0f, 0.0f));
 
-        phongShader.setMat4("projection", projection);
-        phongShader.setMat4("view", view);
-        phongShader.setMat4("model", model);
+        if(currentMode == PHONG){
+            glCullFace(GL_BACK);
+            phongShader.use();
+            phongShader.setMat4("projection", projection);
+            phongShader.setMat4("view", view);
+            phongShader.setMat4("model", model);
 
-        // Light and material uniforms
-        phongShader.setVec3("lightPos", glm::vec3(0.0f, 2.0f, 3.0f));
-        phongShader.setVec3("lightColor", glm::vec3(1.0f, 1.0f, 1.0f));
-        phongShader.setVec3("viewPos", camera.Position);
-        phongShader.setVec3("objectColor", glm::vec3(0.7f, 0.5f, 0.3f));
-        phongShader.setFloat("ambientStrength", 0.15f);
-        phongShader.setFloat("specularStrength", 0.6f);
-        phongShader.setFloat("shininess", 32.0f);
-        phongShader.setBool("useTexture", true); 
-        
-        spot.Draw(phongShader);
+            // Light and material uniforms
+            phongShader.setVec3("lightPos", lightPos);
+            phongShader.setVec3("lightColor", glm::vec3(1.0f));
+            phongShader.setVec3("viewPos", camera.Position);
+            phongShader.setVec3("objectColor", glm::vec3(0.7f, 0.5f, 0.3f));
+            phongShader.setFloat("ambientStrength", 0.15f);
+            phongShader.setFloat("specularStrength", 0.6f);
+            phongShader.setFloat("shininess", 32.0f);
+            phongShader.setBool("useTexture", true); 
+            
+            spot.Draw(phongShader);
+        }
 
         glfwSwapBuffers(window);
         glfwPollEvents();
