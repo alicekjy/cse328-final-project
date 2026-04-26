@@ -112,13 +112,14 @@ int main() {
             (float)SCR_WIDTH / SCR_HEIGHT, 0.1f, 100.0f);
         glm::mat4 view = camera.GetViewMatrix();
         glm::mat4 model = glm::mat4(1.0f);
+        model = glm::rotate(model, glm::radians(180.0f),glm::vec3(0.0f, 1.0f, 0.0f));
 
         phongShader.setMat4("projection", projection);
         phongShader.setMat4("view", view);
         phongShader.setMat4("model", model);
 
         // Light and material uniforms
-        phongShader.setVec3("lightPos", glm::vec3(0.0f, 5.0f, 3.0f));
+        phongShader.setVec3("lightPos", glm::vec3(0.0f, 2.0f, 3.0f));
         phongShader.setVec3("lightColor", glm::vec3(1.0f, 1.0f, 1.0f));
         phongShader.setVec3("viewPos", camera.Position);
         phongShader.setVec3("objectColor", glm::vec3(0.7f, 0.5f, 0.3f));
