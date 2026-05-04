@@ -3,10 +3,12 @@ out vec4 FragColor;
 
 in vec3 FragPos;
 in vec3 Normal;
+in vec2 TexCoord;
 
 uniform vec3 lightPos;
 uniform vec3 viewPos;
 uniform vec3 objectColor;
+uniform sampler2D texture_diffuse1;
 
 //Gooch parameters
 //Warm blend (0.45..)
@@ -45,5 +47,6 @@ void main()
     //white highlight
     vec3 specular = vec3(1.0) * spec;
 
-    FragColor = vec4(gooch + specular, 1.0);
+    vec4 spotTex = texture(texture_diffuse1, TexCoord);
+    FragColor = vec4((gooch + specular) * spotTex.rgb, 1.0);
 }

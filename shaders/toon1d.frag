@@ -18,8 +18,8 @@ void main(){
 
     //1D - just the light axis no depth
     float toonLight = texture(toon1dTex, vec2(u, 0.5)).r;
-    toonLight = max(toonLight, 0.1);
+    toonLight = max(toonLight, 0.25);
 
     vec4 spotTex = texture(texture_diffuse1, TexCoord);
-    FragColor = vec4(spotTex.rgb * toonLight * 1.4, 1.0);
+    FragColor = vec4(spotTex.rgb * toonLight * 1.0, 1.0);
 }

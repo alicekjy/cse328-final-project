@@ -15,7 +15,8 @@ enum ShaderMode {
     PHONG,
     GOOCH,
     XTOON,
-    TOON1D
+    TOON1D,
+    UNLIT
 };
 
 ShaderMode currentMode = PHONG; //default
@@ -71,6 +72,10 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
         if(key == GLFW_KEY_4){
             currentMode = TOON1D;
             std::cout << "Mode:TOON1D\n";
+        }
+        if(key == GLFW_KEY_5){
+            currentMode = UNLIT;
+            std::cout << "Mode: UNLIT\n";
         }
     }
 }
@@ -151,6 +156,7 @@ int main() {
     Shader outlineShader("../shaders/outline.vert", "../shaders/outline.frag");
     Shader xtoonShader("../shaders/phong.vert", "../shaders/xtoon.frag");
     Shader toon1dShader("../shaders/phong.vert", "../shaders/toon1d.frag");
+    Shader unlitShader("../shaders/phong.vert", "../shaders/unlit.frag");
 
     unsigned int xtoonTex = loadTexture("../textures/xtoon_ramp.png");
     unsigned int toon1dTex = loadTexture("../textures/toon1d_ramp.png");
@@ -206,7 +212,7 @@ int main() {
             outlineShader.setMat4("projection", projection);
             outlineShader.setMat4("view", view);
             outlineShader.setMat4("model",model);
-            outlineShader.setFloat("outlineThickness", 0.03f);
+            outlineShader.setFloat("outlineThickness", 0.01f);
             spot.Draw(outlineShader);
 
             //PASS 2 - Gooch shading
@@ -273,6 +279,14 @@ int main() {
 
             spot.Draw(toon1dShader);
 
+        }
+        else if (currentMode == UNLIT) {
+            glCullFace(GL_BACK);
+            unlitShader.use();
+            unlitShader.setMat4("projection", projection);
+            unlitShader.setMat4("view", view);
+            unlitShader.setMat4("model", model);
+            spot.Draw(unlitShader);
         }
 
         glfwSwapBuffers(window);
