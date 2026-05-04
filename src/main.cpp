@@ -7,6 +7,7 @@
 #include "shader.h"
 #include "camera.h"
 #include "model.h"
+#include "stb_image.h"
 
 #include <iostream>
 
@@ -82,6 +83,29 @@ void processInput(GLFWwindow* window){
         camera.ProcessKeyboard(RIGHT, deltaTime);
 }
 
+unsigned int loadTexture(const char* path){
+    unsigned int texID;
+    glGenTextures(1, &texID);
+    int w, h, nChannels;
+    unsigned char* data = stbi_load(path, &w, &h, &nChannels, 0);
+    if(data){
+        GLenum fmt = (nChannels == 4) ? GL_RGBA : GL_RGB;
+        glBindTexture(GL_TEXTURE_2D, texID);
+        glTexImage2D(GL_TEXTURE_2D, 0, fmt, w, h , 0, fmt, GL_UNSIGNED_BYTE, data);
+        glGenerateMipmap(GL_TEXTURE_2D);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+        stbi_image_free(data);
+    } else{
+        std::cerr << "Failed to load texture: " << path << std::endl;
+    }
+
+    return texID;
+
+}
+
 int main() {
     // Initialize GLFW
     glfwInit();
@@ -120,6 +144,9 @@ int main() {
     Shader phongShader("../shaders/phong.vert", "../shaders/phong.frag");
     Shader goochShader("../shaders/phong.vert", "../shaders/gooch.frag");
     Shader outlineShader("../shaders/outline.vert", "../shaders/outline.frag");
+    Shader xtoonShader("../shaders/phong.vert", "../shaders/xtoon.frag");
+    
+    unsigned int xtoonTex = loadTexture("../textures/xtoon_ramp.png");
 
     Model spot("../models/spot/spot_triangulated.obj");
 
@@ -187,6 +214,35 @@ int main() {
             goochShader.setFloat("alpha", 0.45f);
             goochShader.setFloat("beta", 0.45f);
             spot.Draw(goochShader);
+        }
+        else if(currentMode == XTOON){
+            //pass 1 : outline
+            glCullFace(GL_FRONT);
+            outlineShader.use();
+            outlineShader.setMat4("projection", projection);
+            outlineShader.setMat4("view", view);
+            outlineShader.setMat4("model", model);
+            outlineShader.setFloat("outlineThickness", 0.01f);
+            spot.Draw(outlineShader);
+
+            //pass 2 - xtoon shading
+            glCullFace(GL_BACK);
+            xtoonShader.use();
+            xtoonShader.setMat4("projection", projection);
+            xtoonShader.setMat4("view",view);
+            xtoonShader.setMat4("model", model);
+            xtoonShader.setVec3("lightPos", lightPos);
+            xtoonShader.setVec3("viewPos", camera.Position);
+
+            //tune at camera distance ~2 full detail, ~8 fully abstracted
+            xtoonShader.setFloat("nearDist", 2.0f);
+            xtoonShader.setFloat("farDist", 8.0f);
+
+            glActiveTexture(GL_TEXTURE0);
+            glBindTexture(GL_TEXTURE_2D, xtoonTex);
+            xtoonShader.setInt("xtoonTex", 0);
+
+            spot.Draw(xtoonShader);
         }
 
         glfwSwapBuffers(window);

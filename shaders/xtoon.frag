@@ -3,10 +3,12 @@ out vec4 FragColor;
 
 in vec3 FragPos;
 in vec3 Normal;
+in vec2 TexCoord;
 
-uniform vec3 ligthPos;
+uniform vec3 lightPos;
 uniform vec3 viewPos;
 uniform sampler2D xtoonTex;
+uniform sampler2D texture_diffuse1;
 
 //tune to the scene
 //D = 1 full detail, D = 0 fully abstracted
@@ -27,6 +29,8 @@ void main(){
 
     //Sample 2D toon texture
     vec4 toonColor = texture(xtoonTex, vec2(u,D));
+    vec4 spotTex = texture(texture_diffuse1, TexCoord);  
 
-    FragColor = toonColor;
+    FragColor = toonColor * spotTex;
+
 }
