@@ -14,7 +14,8 @@
 enum ShaderMode {
     PHONG,
     GOOCH,
-    XTOON
+    XTOON,
+    TOON1D
 };
 
 ShaderMode currentMode = PHONG; //default
@@ -66,6 +67,10 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
         if(key == GLFW_KEY_3){
             currentMode = XTOON;
             std::cout << "Mode: XTOON\n";
+        }
+        if(key == GLFW_KEY_4){
+            currentMode = TOON1D;
+            std::cout << "Mode:TOON1D\n";
         }
     }
 }
@@ -145,8 +150,10 @@ int main() {
     Shader goochShader("../shaders/phong.vert", "../shaders/gooch.frag");
     Shader outlineShader("../shaders/outline.vert", "../shaders/outline.frag");
     Shader xtoonShader("../shaders/phong.vert", "../shaders/xtoon.frag");
-    
+    Shader toon1dShader("../shaders/phong.vert", "../shaders/toon1d.frag");
+
     unsigned int xtoonTex = loadTexture("../textures/xtoon_ramp.png");
+    unsigned int toon1dTex = loadTexture("../textures/toon1d_ramp.png");
 
     Model spot("../models/spot/spot_triangulated.obj");
 
@@ -243,6 +250,29 @@ int main() {
             xtoonShader.setInt("xtoonTex", 0);
 
             spot.Draw(xtoonShader);
+        }
+        else if (currentMode == TOON1D){
+            glCullFace(GL_FRONT);
+            outlineShader.use();
+            outlineShader.setMat4("projection", projection);
+            outlineShader.setMat4("view", view);
+            outlineShader.setMat4("model", model);
+            outlineShader.setFloat("outlineThickness", 0.01f);
+            spot.Draw(outlineShader);
+
+            glCullFace(GL_BACK);
+            toon1dShader.use();
+            toon1dShader.setMat4("projection", projection);
+            toon1dShader.setMat4("view",view);
+            toon1dShader.setMat4("model", model);
+            toon1dShader.setVec3("lightPos", lightPos);
+
+            glActiveTexture(GL_TEXTURE0);
+            glBindTexture(GL_TEXTURE_2D, toon1dTex);
+            toon1dShader.setInt("toon1dTex", 0);
+
+            spot.Draw(toon1dShader);
+
         }
 
         glfwSwapBuffers(window);
