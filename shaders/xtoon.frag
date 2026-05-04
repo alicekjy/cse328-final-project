@@ -27,10 +27,12 @@ void main(){
     float dist = length(viewPos - FragPos);
     float D = 1.0 - clamp((dist - nearDist) / (farDist - nearDist), 0.0, 1.0);
 
-    //Sample 2D toon texture
-    vec4 toonColor = texture(xtoonTex, vec2(u,D));
-    vec4 spotTex = texture(texture_diffuse1, TexCoord);  
+    //Sample toon ramp as a grayscale lightning
+    float toonLight = texture(xtoonTex, vec2(u,D)).r;
+    toonLight = max(toonLight, 0.25);  
+    //Apply lightning on Spot's texture
+    vec4 spotTex = texture(texture_diffuse1, TexCoord);
 
-    FragColor = toonColor * spotTex;
+    FragColor = vec4(spotTex.rgb * toonLight * 1.2, 1.0);
 
 }
