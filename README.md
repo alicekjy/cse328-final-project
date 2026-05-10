@@ -144,6 +144,8 @@ Parameters from the code:
 
 This mode uses ambient, diffuse, and specular Phong lighting with the Spot diffuse texture.
 
+![Phong shading mode](docs/screenshots/PhongSpot.png)
+
 ### Gooch
 
 Files:
@@ -179,6 +181,8 @@ Outline pass parameters from the code:
 | Surface cull face | `GL_BACK` |
 
 This mode renders a depth-faded black outline first, then applies Gooch warm/cool shading multiplied by the Spot texture.
+
+![Gooch shading mode](docs/screenshots/GoochSpot.png)
 
 ### X-Toon
 
@@ -217,6 +221,8 @@ Outline pass parameters from the code:
 
 This mode samples a 2D X-Toon ramp. The horizontal coordinate is the remapped normal-light dot product, and the vertical coordinate is the camera-distance detail parameter `D`.
 
+![X-Toon shading mode](docs/screenshots/XtoonSpotClose.png)
+
 ### 1D Toon
 
 Files:
@@ -253,6 +259,8 @@ Outline pass parameters from the code:
 
 This mode samples a 1D toon ramp using the remapped normal-light dot product and multiplies the result by the Spot texture.
 
+![1D toon shading mode](docs/screenshots/Spot1dToon.png)
+
 ### Unlit
 
 Files:
@@ -270,6 +278,8 @@ Parameters from the code:
 | Cull face | `GL_BACK` |
 
 This mode displays the Spot diffuse texture without lighting.
+
+![Unlit shading mode](docs/screenshots/SpotUnlit.png)
 
 ---
 
@@ -302,6 +312,10 @@ void main()
 ```
 
 The same `nearDist = 2.0` and `farDist = 8.0` values are also used by the X-Toon shader for its distance parameter `D`, so the silhouette abstraction and X-Toon abstraction change over the same camera-distance interval.
+
+| Camera near `nearDist` | Camera near `farDist` |
+|---|---|
+| ![Silhouette at near distance](docs/screenshots/silhouette_near.png) | ![Silhouette at far distance](docs/screenshots/silhouette_far.png) |
 
 ---
 
@@ -342,7 +356,14 @@ Additional limitations visible in the current code:
 ├── CMakeLists.txt
 ├── README.md
 ├── docs/
-│   └── progress-log.md
+│   └── screenshots/
+│       ├── phong.png
+│       ├── gooch.png
+│       ├── xtoon.png
+│       ├── toon1d.png
+│       ├── unlit.png
+│       ├── silhouette_near.png
+│       └── silhouette_far.png
 ├── models/
 │   └── spot/
 │       ├── README.txt
