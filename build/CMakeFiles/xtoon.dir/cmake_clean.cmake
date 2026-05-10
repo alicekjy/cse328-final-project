@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/xtoon.dir/src/glad.c.o.d"
   "CMakeFiles/xtoon.dir/src/main.cpp.o"
   "CMakeFiles/xtoon.dir/src/main.cpp.o.d"
-  "CMakeFiles/xtoon.dir/src/shader.cpp.o"
-  "CMakeFiles/xtoon.dir/src/shader.cpp.o.d"
   "CMakeFiles/xtoon.dir/src/stb_image.cpp.o"
   "CMakeFiles/xtoon.dir/src/stb_image.cpp.o.d"
   "xtoon"

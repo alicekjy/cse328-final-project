@@ -39,6 +39,7 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
     searched_directories:
       - "/Users/alicekim/.opam/default/bin/uname"
       - "/Users/alicekim/.local/bin/uname"
@@ -53,9 +54,6 @@ events:
       ENV{PATH}:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -73,9 +71,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "message-v1"
     backtrace:
@@ -123,6 +119,7 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
     searched_directories:
       - "/Users/alicekim/.opam/default/bin/gmake"
       - "/Users/alicekim/.local/bin/gmake"
@@ -143,6 +140,7 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/gmake"
       - "/usr/local/share/dotnet/gmake"
       - "/Users/alicekim/.dotnet/tools/gmake"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/gmake"
       - "/Users/alicekim/.opam/default/bin/make"
       - "/Users/alicekim/.local/bin/make"
       - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin/make"
@@ -156,9 +154,6 @@ events:
       ENV{PATH}:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -176,9 +171,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "find-v1"
     backtrace:
@@ -224,6 +217,7 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
     searched_directories:
       - "/Users/alicekim/.opam/default/bin/cc"
       - "/Users/alicekim/.local/bin/cc"
@@ -238,9 +232,6 @@ events:
       ENV{PATH}:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -258,9 +249,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "find-v1"
     backtrace:
@@ -291,9 +280,6 @@ events:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -310,9 +296,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "message-v1"
     backtrace:
@@ -407,14 +391,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -432,9 +414,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "find-v1"
     backtrace:
@@ -474,14 +454,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -499,9 +477,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "find-v1"
     backtrace:
@@ -541,14 +517,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -566,9 +540,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "find-v1"
     backtrace:
@@ -608,14 +580,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -633,9 +603,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "find-v1"
     backtrace:
@@ -675,14 +643,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -700,9 +666,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "find-v1"
     backtrace:
@@ -742,14 +706,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -767,9 +729,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "find-v1"
     backtrace:
@@ -809,6 +769,7 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
     searched_directories:
       - "/usr/bin/objcopy"
       - "/Users/alicekim/.opam/default/bin/objcopy"
@@ -829,14 +790,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/objcopy"
       - "/usr/local/share/dotnet/objcopy"
       - "/Users/alicekim/.dotnet/tools/objcopy"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/objcopy"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -854,9 +813,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "find-v1"
     backtrace:
@@ -896,6 +853,7 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
     searched_directories:
       - "/usr/bin/readelf"
       - "/Users/alicekim/.opam/default/bin/readelf"
@@ -916,14 +874,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/readelf"
       - "/usr/local/share/dotnet/readelf"
       - "/Users/alicekim/.dotnet/tools/readelf"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/readelf"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -941,9 +897,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "find-v1"
     backtrace:
@@ -983,6 +937,7 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
     searched_directories:
       - "/usr/bin/dlltool"
       - "/Users/alicekim/.opam/default/bin/dlltool"
@@ -1003,14 +958,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/dlltool"
       - "/usr/local/share/dotnet/dlltool"
       - "/Users/alicekim/.dotnet/tools/dlltool"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/dlltool"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1028,9 +981,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "find-v1"
     backtrace:
@@ -1070,6 +1021,7 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
     searched_directories:
       - "/usr/bin/addr2line"
       - "/Users/alicekim/.opam/default/bin/addr2line"
@@ -1090,14 +1042,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/addr2line"
       - "/usr/local/share/dotnet/addr2line"
       - "/Users/alicekim/.dotnet/tools/addr2line"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/addr2line"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1115,9 +1065,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "find-v1"
     backtrace:
@@ -1157,6 +1105,7 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
     searched_directories:
       - "/usr/bin/tapi"
       - "/Users/alicekim/.opam/default/bin/tapi"
@@ -1177,14 +1126,12 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/tapi"
       - "/usr/local/share/dotnet/tapi"
       - "/Users/alicekim/.dotnet/tools/tapi"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/tapi"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1202,9 +1149,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "find-v1"
     backtrace:
@@ -1238,9 +1183,6 @@ events:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -1257,9 +1199,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "find-v1"
     backtrace:
@@ -1290,9 +1230,6 @@ events:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -1309,9 +1246,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
   -
     kind: "message-v1"
     backtrace:
@@ -1406,6 +1341,7 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
     searched_directories:
       - "/Users/alicekim/.opam/default/bin/install_name_tool"
       - "/Users/alicekim/.local/bin/install_name_tool"
@@ -1420,9 +1356,6 @@ events:
       ENV{PATH}:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1440,9 +1373,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
       CMAKE_INSTALL_PREFIX: "/usr/local"
   -
     kind: "try_compile-v1"
@@ -1453,8 +1384,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-ZA91rl"
-      binary: "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-ZA91rl"
+      source: "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-HhrWkF"
+      binary: "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-HhrWkF"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -1467,18 +1398,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-ZA91rl'
+        Change Dir: '/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-HhrWkF'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7d33d/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7d33d.dir/build.make CMakeFiles/cmTC_7d33d.dir/build
-        Building C object CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dc818/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dc818.dir/build.make CMakeFiles/cmTC_dc818.dir/build
+        Building C object CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 16.0.0 (clang-1600.0.26.6)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-ZA91rl" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-ZA91rl" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-HhrWkF" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-HhrWkF" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1490,13 +1421,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_7d33d
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d33d.dir/link.txt --verbose=1
+        Linking C executable cmTC_dc818
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc818.dir/link.txt --verbose=1
         Apple clang version 16.0.0 (clang-1600.0.26.6)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_7d33d -L/usr/local/lib -v CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_dc818 -L/usr/local/lib -v CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1115.7.3
         BUILD 23:52:02 Dec  5 2024
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1509,7 +1440,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/cc  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o -o cmTC_7d33d
+        /usr/bin/cc  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o -o cmTC_dc818
         
       exitCode: 0
   -
@@ -1553,18 +1484,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-ZA91rl']
+        ignore line: [Change Dir: '/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-HhrWkF']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7d33d/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7d33d.dir/build.make CMakeFiles/cmTC_7d33d.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dc818/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dc818.dir/build.make CMakeFiles/cmTC_dc818.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-ZA91rl" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-ZA91rl" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-HhrWkF" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-HhrWkF" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1576,13 +1507,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_7d33d]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d33d.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_dc818]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc818.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_7d33d -L/usr/local/lib -v CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_dc818 -L/usr/local/lib -v CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1599,10 +1530,10 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_7d33d] ==> ignore
+          arg [cmTC_dc818] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_7d33d.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_dc818.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
@@ -1645,8 +1576,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-F0lTh7"
-      binary: "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-F0lTh7"
+      source: "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-fuUjgj"
+      binary: "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-fuUjgj"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1660,19 +1591,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-F0lTh7'
+        Change Dir: '/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-fuUjgj'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_156b8/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_156b8.dir/build.make CMakeFiles/cmTC_156b8.dir/build
-        Building CXX object CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a9b23/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a9b23.dir/build.make CMakeFiles/cmTC_a9b23.dir/build
+        Building CXX object CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 16.0.0 (clang-1600.0.26.6)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-F0lTh7" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro "-fdebug-compilation-dir=/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-F0lTh7" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-fuUjgj" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro "-fdebug-compilation-dir=/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-fuUjgj" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1685,13 +1616,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_156b8
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_156b8.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_a9b23
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9b23.dir/link.txt --verbose=1
         Apple clang version 16.0.0 (clang-1600.0.26.6)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_156b8 -L/usr/local/lib -v CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_a9b23 -L/usr/local/lib -v CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1115.7.3
         BUILD 23:52:02 Dec  5 2024
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1704,7 +1635,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_156b8
+        /usr/bin/c++  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a9b23
         
       exitCode: 0
   -
@@ -1750,19 +1681,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-F0lTh7']
+        ignore line: [Change Dir: '/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-fuUjgj']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_156b8/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_156b8.dir/build.make CMakeFiles/cmTC_156b8.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a9b23/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a9b23.dir/build.make CMakeFiles/cmTC_a9b23.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-F0lTh7" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro "-fdebug-compilation-dir=/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-F0lTh7" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-fuUjgj" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro "-fdebug-compilation-dir=/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-fuUjgj" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1775,13 +1706,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_156b8]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_156b8.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_a9b23]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9b23.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_156b8 -L/usr/local/lib -v CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_a9b23 -L/usr/local/lib -v CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1798,10 +1729,10 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_156b8] ==> ignore
+          arg [cmTC_a9b23] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_156b8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_a9b23.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
@@ -1871,6 +1802,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/lib/"
@@ -1890,9 +1822,6 @@ events:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -1909,9 +1838,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1973,6 +1900,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/lib/"
@@ -1992,9 +1920,6 @@ events:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -2011,9 +1936,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2079,6 +2002,7 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/include/"
@@ -2127,6 +2051,7 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/OpenGL.framework/Headers/gl.h"
       - "/usr/local/share/dotnet/OpenGL.framework/Headers/gl.h"
       - "/Users/alicekim/.dotnet/tools/OpenGL.framework/Headers/gl.h"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/OpenGL.framework/Headers/gl.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/OpenGL.framework/Headers/gl.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/OpenGL.framework/Headers/gl.h"
       - "/opt/homebrew/include/OpenGL.framework/Headers/gl.h"
@@ -2156,9 +2081,6 @@ events:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -2175,9 +2097,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2243,6 +2163,7 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/share/dotnet/"
       - "/Users/alicekim/.dotnet/tools/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/include/"
@@ -2291,6 +2212,7 @@ events:
       - "/Applications/VMware Fusion.app/Contents/Public/OpenGL.framework/Headers/glu.h"
       - "/usr/local/share/dotnet/OpenGL.framework/Headers/glu.h"
       - "/Users/alicekim/.dotnet/tools/OpenGL.framework/Headers/glu.h"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/OpenGL.framework/Headers/glu.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/OpenGL.framework/Headers/glu.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/OpenGL.framework/Headers/glu.h"
       - "/opt/homebrew/include/OpenGL.framework/Headers/glu.h"
@@ -2320,9 +2242,6 @@ events:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -2339,9 +2258,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2382,8 +2299,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-ZDzmmE"
-      binary: "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-ZDzmmE"
+      source: "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-11OYT9"
+      binary: "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-11OYT9"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -2396,15 +2313,15 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-ZDzmmE'
+        Change Dir: '/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-11OYT9'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ab1c3/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ab1c3.dir/build.make CMakeFiles/cmTC_ab1c3.dir/build
-        Building C object CMakeFiles/cmTC_ab1c3.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -MD -MT CMakeFiles/cmTC_ab1c3.dir/src.c.o -MF CMakeFiles/cmTC_ab1c3.dir/src.c.o.d -o CMakeFiles/cmTC_ab1c3.dir/src.c.o -c "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-ZDzmmE/src.c"
-        Linking C executable cmTC_ab1c3
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab1c3.dir/link.txt --verbose=1
-        /usr/bin/cc  -arch arm64 CMakeFiles/cmTC_ab1c3.dir/src.c.o -o cmTC_ab1c3
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ad968/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ad968.dir/build.make CMakeFiles/cmTC_ad968.dir/build
+        Building C object CMakeFiles/cmTC_ad968.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -MD -MT CMakeFiles/cmTC_ad968.dir/src.c.o -MF CMakeFiles/cmTC_ad968.dir/src.c.o.d -o CMakeFiles/cmTC_ad968.dir/src.c.o -c "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles/CMakeScratch/TryCompile-11OYT9/src.c"
+        Linking C executable cmTC_ad968
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad968.dir/link.txt --verbose=1
+        /usr/bin/cc  -arch arm64 CMakeFiles/cmTC_ad968.dir/src.c.o -o cmTC_ad968
         
       exitCode: 0
   -
@@ -2554,9 +2471,6 @@ events:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -2573,9 +2487,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2747,9 +2659,6 @@ events:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -2766,9 +2675,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2940,9 +2847,6 @@ events:
         - "/Users/alicekim/.opam/default/bin"
         - "/Users/alicekim/.local/bin"
         - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -2959,9 +2863,7 @@ events:
         - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
-        - "/Users/alicekim/.local/bin"
-        - "/Users/alicekim/.nvm/versions/node/v22.19.0/bin"
-        - "/Users/alicekim/.opam/default/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"

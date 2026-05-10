@@ -86,24 +86,10 @@ CMakeFiles/xtoon.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/xtoon.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/src/main.cpp" -o CMakeFiles/xtoon.dir/src/main.cpp.s
 
-CMakeFiles/xtoon.dir/src/shader.cpp.o: CMakeFiles/xtoon.dir/flags.make
-CMakeFiles/xtoon.dir/src/shader.cpp.o: /Users/alicekim/sbu\ spring\ 2026/CSE\ 328/FinalProject/finalproject/cse328-final-project/src/shader.cpp
-CMakeFiles/xtoon.dir/src/shader.cpp.o: CMakeFiles/xtoon.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/xtoon.dir/src/shader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xtoon.dir/src/shader.cpp.o -MF CMakeFiles/xtoon.dir/src/shader.cpp.o.d -o CMakeFiles/xtoon.dir/src/shader.cpp.o -c "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/src/shader.cpp"
-
-CMakeFiles/xtoon.dir/src/shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/xtoon.dir/src/shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/src/shader.cpp" > CMakeFiles/xtoon.dir/src/shader.cpp.i
-
-CMakeFiles/xtoon.dir/src/shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/xtoon.dir/src/shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/src/shader.cpp" -o CMakeFiles/xtoon.dir/src/shader.cpp.s
-
 CMakeFiles/xtoon.dir/src/glad.c.o: CMakeFiles/xtoon.dir/flags.make
 CMakeFiles/xtoon.dir/src/glad.c.o: /Users/alicekim/sbu\ spring\ 2026/CSE\ 328/FinalProject/finalproject/cse328-final-project/src/glad.c
 CMakeFiles/xtoon.dir/src/glad.c.o: CMakeFiles/xtoon.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/xtoon.dir/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/xtoon.dir/src/glad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xtoon.dir/src/glad.c.o -MF CMakeFiles/xtoon.dir/src/glad.c.o.d -o CMakeFiles/xtoon.dir/src/glad.c.o -c "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/src/glad.c"
 
 CMakeFiles/xtoon.dir/src/glad.c.i: cmake_force
@@ -117,7 +103,7 @@ CMakeFiles/xtoon.dir/src/glad.c.s: cmake_force
 CMakeFiles/xtoon.dir/src/stb_image.cpp.o: CMakeFiles/xtoon.dir/flags.make
 CMakeFiles/xtoon.dir/src/stb_image.cpp.o: /Users/alicekim/sbu\ spring\ 2026/CSE\ 328/FinalProject/finalproject/cse328-final-project/src/stb_image.cpp
 CMakeFiles/xtoon.dir/src/stb_image.cpp.o: CMakeFiles/xtoon.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/xtoon.dir/src/stb_image.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/xtoon.dir/src/stb_image.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xtoon.dir/src/stb_image.cpp.o -MF CMakeFiles/xtoon.dir/src/stb_image.cpp.o.d -o CMakeFiles/xtoon.dir/src/stb_image.cpp.o -c "/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/src/stb_image.cpp"
 
 CMakeFiles/xtoon.dir/src/stb_image.cpp.i: cmake_force
@@ -131,7 +117,6 @@ CMakeFiles/xtoon.dir/src/stb_image.cpp.s: cmake_force
 # Object files for target xtoon
 xtoon_OBJECTS = \
 "CMakeFiles/xtoon.dir/src/main.cpp.o" \
-"CMakeFiles/xtoon.dir/src/shader.cpp.o" \
 "CMakeFiles/xtoon.dir/src/glad.c.o" \
 "CMakeFiles/xtoon.dir/src/stb_image.cpp.o"
 
@@ -139,7 +124,6 @@ xtoon_OBJECTS = \
 xtoon_EXTERNAL_OBJECTS =
 
 xtoon: CMakeFiles/xtoon.dir/src/main.cpp.o
-xtoon: CMakeFiles/xtoon.dir/src/shader.cpp.o
 xtoon: CMakeFiles/xtoon.dir/src/glad.c.o
 xtoon: CMakeFiles/xtoon.dir/src/stb_image.cpp.o
 xtoon: CMakeFiles/xtoon.dir/build.make
@@ -149,7 +133,7 @@ xtoon: /opt/homebrew/lib/libglm.dylib
 xtoon: /opt/homebrew/lib/libassimp.6.0.4.dylib
 xtoon: /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib/libz.tbd
 xtoon: CMakeFiles/xtoon.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable xtoon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/alicekim/sbu spring 2026/CSE 328/FinalProject/finalproject/cse328-final-project/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable xtoon"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xtoon.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
