@@ -212,7 +212,7 @@ int main() {
             outlineShader.setMat4("projection", projection);
             outlineShader.setMat4("view", view);
             outlineShader.setMat4("model",model);
-            outlineShader.setFloat("outlineThickness", 0.01f);
+            outlineShader.setFloat("outlineThickness", 0.03f);
             spot.Draw(outlineShader);
 
             //PASS 2 - Gooch shading
@@ -235,7 +235,7 @@ int main() {
             outlineShader.setMat4("projection", projection);
             outlineShader.setMat4("view", view);
             outlineShader.setMat4("model", model);
-            outlineShader.setFloat("outlineThickness", 0.01f);
+            outlineShader.setFloat("outlineThickness", 0.03f);
             spot.Draw(outlineShader);
 
             //pass 2 - xtoon shading
@@ -263,7 +263,7 @@ int main() {
             outlineShader.setMat4("projection", projection);
             outlineShader.setMat4("view", view);
             outlineShader.setMat4("model", model);
-            outlineShader.setFloat("outlineThickness", 0.01f);
+            outlineShader.setFloat("outlineThickness", 0.03f);
             spot.Draw(outlineShader);
 
             glCullFace(GL_BACK);
