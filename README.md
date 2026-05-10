@@ -41,10 +41,10 @@ Shader changes do not require make — only re-run ./xtoon
 - Assimp
 - CMake
 
-Install dependencies with Homebrew:
+Install dependencies with Homebrew. If CMake is already installed on your system, you can omit `cmake` from this command:
 
 ```bash
-brew install glfw glm assimp
+brew install cmake glfw glm assimp
 ```
 
 GLAD and stb_image are included in src/ — no install needed.
