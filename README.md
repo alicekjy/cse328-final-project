@@ -315,7 +315,7 @@ The same `nearDist = 2.0` and `farDist = 8.0` values are also used by the X-Toon
 
 | Camera near `nearDist` | Camera near `farDist` |
 |---|---|
-| ![Silhouette at near distance](docs/screenshots/silhouette_near.png) | ![Silhouette at far distance](docs/screenshots/silhouette_far.png) |
+| ![Silhouette at near distance](docs/screenshots/XToon/XtoonSpotClose.png) | ![Silhouette at far distance](docs/screenshots/XToon/XtoonSpotFar.png) |
 
 ---
 
