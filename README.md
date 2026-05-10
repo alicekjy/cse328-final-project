@@ -103,6 +103,21 @@ The application opens a `1200 x 800` window titled `NPR Shaders` and starts in P
 
 ---
 
+## Scene Parameters
+
+These values apply across every shading mode and are set in `src/main.cpp`.
+
+| Parameter | Value |
+|---|---|
+| Window size | `1200 x 800` |
+| Background clear color | `(0.53, 0.53, 0.53)` mid-gray |
+| Initial camera position | `(0.0, 0.5, 4.0)` |
+| Shared light position | `(0.0, 2.0, 3.0)` |
+| Model rotation | `180°` around the Y axis |
+| Projection | Perspective, FOV from `camera.Zoom` (default `45°`), near `0.1`, far `100.0` |
+
+---
+
 ## Shading Modes
 
 ### Phong
@@ -148,9 +163,9 @@ Surface shader parameters from the code:
 | `objectColor` | `(0.7, 0.5, 0.3)` warm brown |
 | `alpha` | `0.45` |
 | `beta` | `0.45` |
-| `k_blue` | `(0.0, 0.0, 0.4)` dark blue |
-| `k_yellow` | `(0.4, 0.4, 0.0)` dark yellow |
-| Specular exponent | `32.0` |
+| `k_blue` | `(0.0, 0.0, 0.4)` dark blue (hardcoded in `gooch.frag`) |
+| `k_yellow` | `(0.4, 0.4, 0.0)` dark yellow (hardcoded in `gooch.frag`) |
+| Specular exponent | `32.0` (hardcoded in `gooch.frag`) |
 
 Outline pass parameters from the code:
 
@@ -186,8 +201,8 @@ Surface shader parameters from the code:
 | `farDist` | `8.0` |
 | Ramp texture | `textures/xtoon_ramp.png` |
 | Ramp size | `256 x 256` |
-| Minimum toon light | `0.25` |
-| Final light scale | `1.2` |
+| Minimum toon light | `0.25` (hardcoded in `xtoon.frag`) |
+| Final light scale | `1.2` (hardcoded in `xtoon.frag`) |
 
 Outline pass parameters from the code:
 
@@ -221,9 +236,9 @@ Surface shader parameters from the code:
 | `lightPos` | `(0.0, 2.0, 3.0)` |
 | Ramp texture | `textures/toon1d_ramp.png` |
 | Ramp size | `256 x 4` |
-| Ramp sample coordinate | `(u, 0.5)` |
-| Minimum toon light | `0.25` |
-| Final light scale | `1.0` |
+| Ramp sample coordinate | `(u, 0.5)` (hardcoded in `toon1d.frag`) |
+| Minimum toon light | `0.25` (hardcoded in `toon1d.frag`) |
+| Final light scale | `1.0` (hardcoded in `toon1d.frag`) |
 
 Outline pass parameters from the code:
 
@@ -325,7 +340,6 @@ Additional limitations visible in the current code:
 ```text
 .
 ├── CMakeLists.txt
-├── README
 ├── README.md
 ├── docs/
 │   └── progress-log.md
@@ -356,7 +370,6 @@ Additional limitations visible in the current code:
 │   ├── glad.c
 │   ├── mesh.h
 │   ├── model.h
-│   ├── shader.cpp
 │   ├── shader.h
 │   ├── stb_image.cpp
 │   └── stb_image.h
