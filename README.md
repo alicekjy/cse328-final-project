@@ -357,13 +357,24 @@ Additional limitations visible in the current code:
 ├── README.md
 ├── docs/
 │   └── screenshots/
-│       ├── phong.png
-│       ├── gooch.png
-│       ├── xtoon.png
-│       ├── toon1d.png
-│       ├── unlit.png
-│       ├── silhouette_near.png
-│       └── silhouette_far.png
+│       ├── SpotOutlines.png
+│       ├── Phong/
+│       │   ├── PhongSpot.png
+│       │   └── PhongSpotSide.png
+│       ├── Gooch/
+│       │   ├── GoochSpot.png
+│       │   └── GoochSpotBack.png
+│       ├── XToon/
+│       │   ├── XtoonSpotClose.png
+│       │   └── XtoonSpotFar.png
+│       ├── 1dToon/
+│       │   ├── Spot1dToon.png
+│       │   └── Spot1dToonSide.png
+│       └── Unlit/
+│           ├── SpotUnlit.png
+│           ├── SpotUnlit2.png
+│           ├── SpotUnlit3.png
+│           └── SpotUnlit4.png
 ├── models/
 │   └── spot/
 │       ├── README.txt
