@@ -144,7 +144,7 @@ Parameters from the code:
 
 This mode uses ambient, diffuse, and specular Phong lighting with the Spot diffuse texture.
 
-![Phong shading mode](docs/screenshots/PhongSpot.png)
+![Phong shading mode](docs/screenshots/Phong/PhongSpot.png)
 
 ### Gooch
 
@@ -182,7 +182,7 @@ Outline pass parameters from the code:
 
 This mode renders a depth-faded black outline first, then applies Gooch warm/cool shading multiplied by the Spot texture.
 
-![Gooch shading mode](docs/screenshots/GoochSpot.png)
+![Gooch shading mode](docs/screenshots/Gooch/GoochSpot.png)
 
 ### X-Toon
 
@@ -221,7 +221,7 @@ Outline pass parameters from the code:
 
 This mode samples a 2D X-Toon ramp. The horizontal coordinate is the remapped normal-light dot product, and the vertical coordinate is the camera-distance detail parameter `D`.
 
-![X-Toon shading mode](docs/screenshots/XtoonSpotClose.png)
+![X-Toon shading mode](docs/screenshots/XToon/XtoonSpotClose.png)
 
 ### 1D Toon
 
@@ -259,7 +259,7 @@ Outline pass parameters from the code:
 
 This mode samples a 1D toon ramp using the remapped normal-light dot product and multiplies the result by the Spot texture.
 
-![1D toon shading mode](docs/screenshots/Spot1dToon.png)
+![1D toon shading mode](docs/screenshots/1dToon/Spot1dToon.png)
 
 ### Unlit
 
@@ -279,7 +279,7 @@ Parameters from the code:
 
 This mode displays the Spot diffuse texture without lighting.
 
-![Unlit shading mode](docs/screenshots/SpotUnlit.png)
+![Unlit shading mode](docs/screenshots/Unlit/SpotUnlit.png)
 
 ---
 
