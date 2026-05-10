@@ -52,7 +52,7 @@ void mouse_callback(GLFWwindow* window, double xpos, double ypos){
 }
 
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset){
-    camera.ProcessMouseScroll(yoffset);
+    camera.ProcessKeyboard(yoffset > 0 ? FORWARD : BACKWARD, 0.5f);
 }
 
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods){
@@ -206,14 +206,21 @@ int main() {
         }
         else if(currentMode == GOOCH){
 
-            //PASS 1 - blackoutline shell 
+            //PASS 1 - blackoutline shell with depth fade
+            glEnable(GL_BLEND);
+            glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
             glCullFace(GL_FRONT);
             outlineShader.use();
             outlineShader.setMat4("projection", projection);
             outlineShader.setMat4("view", view);
             outlineShader.setMat4("model",model);
-            outlineShader.setFloat("outlineThickness", 0.03f);
+            outlineShader.setFloat("outlineThickness", 0.015f);
+            //Shin's paper
+            outlineShader.setVec3("viewPos", camera.Position);
+            outlineShader.setFloat("nearDist", 2.0f);
+            outlineShader.setFloat("farDist", 8.0f);
             spot.Draw(outlineShader);
+            glDisable(GL_BLEND);
 
             //PASS 2 - Gooch shading
             glCullFace(GL_BACK);
@@ -230,13 +237,20 @@ int main() {
         }
         else if(currentMode == XTOON){
             //pass 1 : outline
+            glEnable(GL_BLEND);
+            glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
             glCullFace(GL_FRONT);
             outlineShader.use();
             outlineShader.setMat4("projection", projection);
             outlineShader.setMat4("view", view);
             outlineShader.setMat4("model", model);
-            outlineShader.setFloat("outlineThickness", 0.03f);
+            outlineShader.setFloat("outlineThickness", 0.015f);
+            //Shin's paper
+            outlineShader.setVec3("viewPos", camera.Position);
+            outlineShader.setFloat("nearDist", 2.0f);
+            outlineShader.setFloat("farDist", 8.0f);
             spot.Draw(outlineShader);
+            glDisable(GL_BLEND);
 
             //pass 2 - xtoon shading
             glCullFace(GL_BACK);
@@ -258,13 +272,20 @@ int main() {
             spot.Draw(xtoonShader);
         }
         else if (currentMode == TOON1D){
+            glEnable(GL_BLEND);
+            glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
             glCullFace(GL_FRONT);
             outlineShader.use();
             outlineShader.setMat4("projection", projection);
             outlineShader.setMat4("view", view);
             outlineShader.setMat4("model", model);
-            outlineShader.setFloat("outlineThickness", 0.03f);
+            outlineShader.setFloat("outlineThickness", 0.015f);
+            //Shin's paper
+            outlineShader.setVec3("viewPos", camera.Position);
+            outlineShader.setFloat("nearDist", 2.0f);
+            outlineShader.setFloat("farDist", 8.0f);
             spot.Draw(outlineShader);
+            glDisable(GL_BLEND);
 
             glCullFace(GL_BACK);
             toon1dShader.use();

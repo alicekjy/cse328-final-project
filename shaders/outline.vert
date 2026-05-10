@@ -8,7 +8,8 @@ uniform mat4 view;
 uniform mat4 projection;
 uniform float outlineThickness;
 
-uniform float FragPos;
+out vec3 FragPos;
+
 void main()
 {
     //Expand vertex along its normal in world space
@@ -16,5 +17,5 @@ void main()
     //factor out world Pos
     vec4 worldPos = model * vec4(expandedPos, 1.0);
     FragPos = worldPos.xyz;
-    gl_Position = projection * view * model * worldPos;
+    gl_Position = projection * view * worldPos;
 }
